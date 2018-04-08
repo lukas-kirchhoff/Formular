@@ -1,0 +1,33 @@
+.button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding: 0 22px;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 500;
+    text-shadow: none;
+    text-align: center;
+    margin: 0 0 5px 0;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.button:hover{
+    text-decoration: none;
+}
+
+.button.border {
+    background: 0 0!important;
+    border: 1px dashed #5b91a6;
+    color: #5b91a6!important;
+}
+
+.button.border:hover {
+    background: #93bbbf!important;
+    color: #fff!important;
+    border: 1px solid #93bbbf!important;
+}

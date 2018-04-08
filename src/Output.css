@@ -1,0 +1,31 @@
+
+.pill{
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #fff;
+    background-color: #c4c4c4;
+    color: #fff!important;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.panel{
+    border: 1px solid rgba(0,0,0,.125);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.company a{
+    color:#5b91a6;
+}
+
+.company a:hover{
+        color: #93bbbf;
+        border-bottom: 1px solid #93bbbf;
+        text-decoration: none;
+}
+
+.output-button{
+    float: right;
+}

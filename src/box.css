@@ -1,0 +1,93 @@
+.Box-select,
+.Box-input,
+.Box-textarea {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    line-height: 1.4;
+    background-color: #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+    font-size: 13px;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    box-shadow: none;
+}
+
+.Box-textarea {
+    height: 120px;
+}
+
+.Box-select:active,
+.Box-select:focus,
+.Box-input:active,
+Box-input:focus {
+    border-color: #999;
+    box-shadow: none;
+}
+
+.Box-label {
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 1.8;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 3px 0;
+    color: #989898;
+    text-align: left;
+    width: 100%;
+}
+
+.Box-FormWrapper {
+    margin-bottom: 10px;
+}
+
+.button-save {
+    font-size: 13px;
+    font-weight: 500;
+    text-shadow: none;
+    text-align: center;
+    margin: 0 0 5px 0;
+    width: 100%;
+    background: #bc1c4f !important;
+    border-bottom: 3px solid #931a3f;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.button-save:hover {
+    background: #e41b56 !important;
+    border-bottom: 3px solid #931a3f;
+}
+
+.button-save a {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.button-quit {
+    font-size: 11px;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    background: #5b91a6 !important;
+    border-bottom: 3px solid #3b5f6a;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button-quit:hover{
+    background: #93bbbf!important;
+    border-bottom: 3px solid #3b5f6a;
+}
+
+.button-quit a {
+    color:#fff;
+}
+
+.button-quit a:hover{
+    text-decoration: none;
+}
